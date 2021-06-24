@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Huevos y fruta fresca La Barraca</title>
+	<link rel="icon" type="image/png" href="/img/frutafrescaLaBarraca-32.png" sizes="32x32">
+	<link rel="stylesheet" href="./css/estilos.min.css">
+</head>
+<body>
+	<div class="contenedor__global"> <!-- ***** header php****** -->
+		<header id="main-header" class="main-header"> <!-- ***** site-header php****** -->
+			<div class="cabecera"> <!-- ***** site-header php****** -->
+				<div class="cabecera-marca">
+					<div class="cabecera-marca__logo">
+						<a href="#" class="cabecera-marca__link" rel="home">
+							<img src="./img/frutafrescaLaBarraca-32.png" class="cabecera-marca__img" alt="logo" />
+						</a>
+					</div>
+					<div class="cabecera-marca__texto">
+						fruta fresca<span>La Barraca</span>
+					</div>
+				</div>
+
+				<button class="toggle" aria-label="Abrir menú">
+					<span class="fa-stack fa-1x" style="vertical-align: top;">
+						<i class="fas fa-bars fa-stack-1x fa-stack-icon-1"></i>
+						<i class="fas fa-times fa-stack-1x fa-stack-icon-2"></i>
+					</span>
+				</button> <!-- ***** site-header php****** -->
+
+				<nav id="menu" class="visible">  <!-- ***** site-header php****** -->
+
+					<div class="menu__contenedor-principal">  <!-- ***** wp_nav php   'container_class'  ****** -->
+						<ul id="menu-list" class="menu__lista">  <!-- ***** wp_nav php   'items_wrap'  'menu_class'  ****** -->
+							<li id="menu-item-69"  class="menu-item current-menu-item"><a class="menu__ancla" href="#">Inicio</a></li>
+							<li id="menu-item-70"  class="menu-item"><a class="menu__ancla" href="#">Huevos</a></li>
+							<li id="menu-item-216" class="menu-item"><a class="menu__ancla" href="#">Comprar</a></li>
+							<li id="menu-item-31"  class="menu-item"><a class="menu__ancla" href="#">Nosotros &#8230;</a></li>
+							<li id="menu-item-33"  class="menu-item"><a class="menu__ancla" href="#">Contacto</a></li>
+						</ul>
+					</div> <!-- ***** wp_nav php  ****** -->
+					
+				</nav><!-- /#main-nav -->  <!-- ***** site-header php****** -->
+			</div>
+		</header><!-- /#main-header -->  <!-- ***** site-header php****** -->
+
+		<content id="contenedor-pagina" class="contenedor__pagina">     <!-- ***** header php   final ****** -->
+			<pagina id="front-page" style="display:none;"></pagina>
+
+			<div class="contenedor__contenido-ancho contenedor--w100">
+				<div class="contenedor__principal contenedor--w100">
+
+					<div class="contenedor contenedor--w100">
+						<!-- <h1 class="contenedor__titulo">Superposición de elementos</h1> -->
+						<div class="banner banner--w100">
+							<h2 class="banner__titulo">Huevos frescos recien recogidos</h2>
+							<img class="banner__img" src="img/huevos.jpg" alt="">
+						</div>
+					</div>
+
+					<div class="contenedor contenedor--w100">
+						<!-- <h1 class="contenedor__titulo">Superposición de elementos</h1> -->
+						<div class="parrafos">
+							<p class="parrafos__texto">Cerca de casa tienes la oprtunidad de disfrutar de unos huevos criados con gallinas en libertad.</p>
+							<p class="parrafos__texto">Puedes venir a visitar las instlaciones y recoger tus huevos.</p>
+							<p class="parrafos__texto">También puedes llamar al 666 666 666 o enviar un WhatsApp y te lo llevaremos a casa.</p>
+						</div>
+					</div>
+
+					<div class="contenedor contenedor--v contenedor--w100">
+						<h2 class="contenedor__titulo-peq">Nos encontrarás aquí</h2>
+						<div class="parrafos parrafo--transp">
+							<div class="parrafos__iframe">								
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1567.8154895455107!2d-0.5604332408945479!3d39.55121472418994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDMzJzA0LjQiTiAwwrAzMyczNC4zIlc!5e1!3m2!1ses-419!2ses!4v1624556305740!5m2!1ses-419!2ses" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<aside class="contenedor__lateral">
+					<h2>SIDEBAR</h2>
+				</aside>
+			</div>
+
+		</content><!-- /#global-content -->     <!-- ***** footer php   inicio ****** -->
+
+		<footer class="contenedor__pie">       <!-- ****** footer php  ***** -->
+			<div class="pie__copyright">
+				&copy;  <?php echo date('Y'); ?> Realizado por EGLOS
+			</div><!-- pie__copyright -->
+		</footer>
+
+	</div>
+
+	<div>
+		<script src="js/fontawesome.js"></script>
+		<script src="js/scripts.js"></script>
+	</div>
+
+
+</body>
+</html>
